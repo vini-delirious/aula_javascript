@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
+        <p onmouseover="trocar(this)" onmouseout="voltar(this)"> Passe o mouse aqui</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="acesso">primeiro acesso</option>
+            <option value="formulario">preencher formulario</option>
+            <option value="cadastro">finalizar cadastro</option>
+        </select>
+    </body>
+
+
+</html> 
